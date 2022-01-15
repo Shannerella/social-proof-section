@@ -1,0 +1,65 @@
+    body {
+        background-color: white;
+        padding: 100px
+    }   
+    
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+
+
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+    /* Top Section */
+
+    #top-section {
+        margin: auto;
+        margin-bottom: 500px;
+    }
+
+    .top-left {
+        width: 50%;
+        margin: auto;
+        float: left
+    }
+
+    .top-right {
+        width: 50%;
+        /* float: right; */
+        margin: auto;
+    }
+
+    .rating-card {
+
+    }
+
+    .rc1 {
+
+    }
+
+    .rc2 {
+
+    }
+
+    .rc3 {
+
+    }
+
+
+    #bottom.section {
+    
+    }
+
+
+
