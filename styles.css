@@ -1,6 +1,6 @@
     body {
         background-color: white;
-        padding: 100px;
+        padding: 80px 100px;
         font-family: 'Spartan', sans-serif;
     }   
     
@@ -54,7 +54,7 @@
         font-size: 15px;
         font-weight: 500;
         width: 80%;
-        line-height: 2;
+        line-height: 1.5;
         margin-top: 10px;
         
     }
@@ -104,10 +104,21 @@
     .review-card {
         background-color: hsl(300, 43%, 22%);
         display: inline-block;
-        width: 27%;
-        height: 200px;
-        margin: 20px;
+        width: 31%;
+        height: 230px;
         border-radius: 10px;
+    }
+
+    .review-card:nth-child(1) {
+        transform: translateY(-1rem);
+    }
+
+    .review-card:nth-child(2) {
+        margin: 0px 20px 40px 20px;
+    }
+
+    .review-card:nth-child(3) {
+        transform: translateY(1rem);
     }
 
     .name-pic {
@@ -126,12 +137,11 @@
         color: hsl(333, 80%, 67%);
         font-size: 12px;
         margin: 5px;
-
     }
 
     .review-txt {
         color: hsl(300, 24%, 96%);
-        font-size: 11px;
+        font-size: 13px;
         width: 80%;
         margin: 30px auto;
         line-height: 1.5;
